@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore")
 
 # -----------------------------------------------------------------------------
 # Read data
-diamonds = pd.read_csv(r"C:\data\diamonds.csv")
+diamonds = pd.read_csv("./diamonds.csv")
 
 # -----------------------------------------------------------------------------
 # Review and clean the data (may be a repetitive task)
